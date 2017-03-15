@@ -4,5 +4,5 @@ require 'vendor/autoload.php';
                          ->height( 500 )
                          ->backColor( 255, 255, 255 )
                          ->foreColor( 0, 0, 0 )
-                         ->save( 'http://houdunren.com','qr.png' );
+                         ->make( 'http://houdunren.com','qr.png' );
 
