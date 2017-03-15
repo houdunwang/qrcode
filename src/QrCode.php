@@ -17,7 +17,6 @@ class QrCode {
 
 	protected function driver() {
 		$this->link = new Base();
-		$this->link->bootstrap();
 
 		return $this;
 	}
