@@ -25,10 +25,18 @@
     "houdunwang/config": "~1.0",
     "bacon/bacon-qr-code": "^1.0"
   },
+  "require-dev": {
+    "phpunit/phpunit": "^6.1"
+  },
   "autoload": {
     "files": [],
     "psr-4": {
       "houdunwang\\qrcode\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "tests\\": "tests"
     }
   }
 }
