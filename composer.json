@@ -1,7 +1,6 @@
 {
   "name": "houdunwang/qrcode",
   "description": "生成二维码图片或文件",
-  "type": "project",
   "keywords": [
     "houdunwang",
     "hdphp",
